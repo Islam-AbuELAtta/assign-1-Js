@@ -1,0 +1,51 @@
+.bg-body-tertiary{
+ 
+    background-color: #040404 !important;
+}
+.navbar a{
+    color: #FFF !important;
+}
+.dropdown ul a{
+    color: black !important;
+   
+}
+
+ul li a{
+    position: relative  ;
+    overflow: hidden;
+}
+ul li a::before {
+   
+    content: ""  ;
+    position: absolute  ;
+    bottom:4px  ;
+    left: 0  ;
+    width: 100%  ;
+    margin: auto;
+    height: 2px  ;
+    background-color: #FFF  ;
+    visibility: hidden  ;
+    transition: all 1s  ;
+    transform: translatex(-102%) ;
+}
+li a:hover::before{
+    visibility: visible  ;
+    transform: translateX(0);
+}
+a:focus::before{
+    visibility: visible  ;
+    transform: translateX(0);
+}
+.main-header{
+    height: 100vh;
+    background-image: radial-gradient(rgba(0,0,0,0.3) , rgba(0,0,0,0.7)) , url(../img/hero-bg.jpg) ;
+    background-position: center;
+    background-size: cover;
+}
+
+/* start section one */
+
+
+
+
+
